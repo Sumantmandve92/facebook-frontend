@@ -1,0 +1,105 @@
+.navbar-container {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(53, 12, 236);
+}
+
+.navbar-left {
+    flex: 3;
+}
+
+.navbar-center {
+    flex: 5.5;
+}
+
+.navbar-right {
+    flex: 3.5;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+.navbar-link{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.profilePic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.facebook-logo{
+    margin: 0 5px;
+    
+}
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(247, 246, 246);
+    cursor: pointer;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.serch-bar {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(248, 247, 244);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search-icon {
+    font-size: 20px !important;
+    margin: 0 10px;
+}
+
+.serch-input {
+    border: none;
+    width: 70%;
+}
+
+.serch-input:focus {
+    outline: none;
+}
+.navbar-icons{
+    display: flex;
+justify-content: space-between;
+color: white;
+}
+.navbarIconItem{
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.navbarIconBadge{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.notification-icons{
+    font-size: 24px;
+}

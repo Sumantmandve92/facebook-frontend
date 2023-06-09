@@ -1,0 +1,26 @@
+.allFriends{
+    width: 100vw;
+  
+    display: flex;
+}
+.serachedResults{
+    flex: 3;
+    padding-top: 10px;
+    background-color: azure;
+}
+.showProfile{
+    flex: 4;
+}
+.friendPosts{
+flex: 5;
+}
+.friend-card{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    border-radius: 5px;
+
+}
+.friend-card:hover{
+    background-color: lightgray;
+}

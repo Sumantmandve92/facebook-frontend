@@ -1,0 +1,55 @@
+.rightbar{
+    flex: 3.5;
+}
+.rightbar-container{
+    padding: 20px 20px 0 5px;
+}
+.birthday-container{
+    display: flex;
+    align-items: center;
+
+}
+.birthday-text{
+font-weight: 400;
+font-size: 15px;
+margin-left: 10px;
+}
+/* ====================================== */
+.rightbar-friendList{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: calc(100vh - 250px);
+}
+.rightbar-friend{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+    gap: 10px;
+}
+.rightbar-profile-img-container{
+    position: relative;
+}
+.rightbar-online{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: -5px;
+}
+.rightbar-profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,116 @@
+.editProfile{
+    width: 100%;
+display: flex;
+height: calc(100vh-100px );
+align-items: center;
+justify-content: center;
+padding: 10px;
+
+overflow-y: scroll;
+
+}
+.editProfile-container{
+    width: 70%;
+   /* background-color: cadetblue; */
+    display: flex;
+    flex-flow: column;
+  
+}
+.image-container{
+    width: 98%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+
+}
+.coverPicture{
+    width: 100%;
+
+   display: flex;
+   /* background-color: blueviolet; */
+   justify-content: center;
+  position: relative;
+ 
+}
+.coverPicture:hover{
+    cursor: pointer;
+}
+.editIcon-coverPic{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: black;
+}
+.previous-coverPic{
+    height: 300px;
+   width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+
+}
+.editIcon-coverPic:hover{
+    color: rgb(250, 248, 248);
+    cursor: pointer;
+}
+.profilePicture{
+    width: fit-content;
+    height: fit-content;
+position: absolute;
+top: 60%;
+left: 40%;
+    
+}
+.profilePicture:hover{
+    cursor: pointer;
+}
+.editIcon-profilePic{
+    position: absolute;
+    top: 15px;
+    right: 355px;
+    color: black;
+ 
+}
+.editIcon-profilePic:hover{
+    color: rgb(249, 247, 247);
+    cursor: pointer;
+}
+.previous-profilePic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+     object-fit: cover;
+}
+/* =============================================== */
+.form-container{
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+.profile-info-form{
+    width: 98%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.profile-input-container{
+    width: 49%;
+    display: flex;
+    flex-flow: column;
+}
+.profile-inputs{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid gray;
+
+}

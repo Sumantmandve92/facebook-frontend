@@ -1,0 +1,11 @@
+.messanger{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 50px);
+}
+.messanger-container{
+width: 99%;
+height: 100%;
+display: flex;
+}

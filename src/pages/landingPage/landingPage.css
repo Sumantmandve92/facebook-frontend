@@ -1,0 +1,51 @@
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-page-container{
+    width: 50%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 37px -2px rgba(0,0,0,0.41); 
+    box-shadow: 2px 4px 37px -2px rgba(0,0,0,0.41);
+}
+.leftside-container{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  justify-content: center;
+  gap: 50px;
+align-items: flex-start;
+flex: 1;
+padding-left: 50px;
+}
+.rightside-container{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.btn{
+    width: 50%;
+}
+.app-name{
+    color: rgb(33, 33, 250);
+    font-size: 50px;
+
+    margin: 0 10px;
+}

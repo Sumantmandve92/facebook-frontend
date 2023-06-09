@@ -1,0 +1,141 @@
+.chatroom {
+    flex: 4;
+    background-color: #b7f2c5;
+    height: calc(100vh - 50px);
+}
+
+.chatmessages-container {
+    width: 100%;
+
+}
+
+.chat-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.chat-header-left {
+    flex: 1;
+}
+
+.chat-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.header-right-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 10px;
+    gap: 10px;
+    align-items: center;
+    width: 30%;
+}
+
+.hr-line {
+    margin: 0;
+}
+
+/* ============================================= */
+
+.room {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 163px);
+    background-color: rgb(228, 230, 230);
+    padding: 10px;
+    overflow-y: scroll;
+
+
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.room-container {
+    height: calc(100vh - 150px);
+    box-sizing: border-box;
+    width: 100%;
+  
+  
+}
+
+.my-message-container {
+    width: 100%;
+ margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.my-message {
+    height: fit-content;
+width: fit-content;
+    padding: 5px 5px 5px 5px;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.friend-message-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.friend-message {
+    height: fit-content;
+width: fit-content;
+    padding: 5px 5px 5px 5px;
+    max-width: 300px;
+    background-color: #dcf8c6;
+    border-radius: 5px;
+}
+.time{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+  
+    font-size: 10px;
+ 
+}
+/* =====================default message====================== */
+.default-chatroom{
+    flex: 4;
+    background-color: rgb(228, 230, 230);
+}
+.default-message{
+    color: white;
+}
+/* =================input message container===================== */
+.input-container{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    align-items: center;
+    /* gap: 10px; */
+    margin: 0 23px 0 0;
+}
+.message-input{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+}
+.message-input:focus{
+    outline: none;
+}
+/* .emoji-picker{
+    position: fixed;
+    top: 40px;
+    left: 5px;
+} */
